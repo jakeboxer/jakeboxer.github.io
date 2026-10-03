@@ -4,13 +4,13 @@
         <title>Dropshot</title>
         <item>
             <title>1.0</title>
-            <pubDate>Fri, 02 Oct 2026 01:17:32 -0700</pubDate>
-            <link>https://jakecard.dev/dropshot/</link>
-            <sparkle:version>18</sparkle:version>
+            <pubDate>Fri, 02 Oct 2026 17:57:05 -0700</pubDate>
+            <link>https://jakecard.dev/dropshot</link>
+            <sparkle:version>20</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/jakecard/Dropshot-releases/releases/download/build-18/Dropshot.dmg" length="2909013" type="application/octet-stream" sparkle:edSignature="YhA0C2ShBE/cSg7S9BzzQL+fWsztNo1cnECRJETbzv4wQrhygYAtgZNYAK191+lrPD9/MWiLfJ+WFNfP6kPtAA=="/>
+            <enclosure url="https://github.com/jakecard/Dropshot-releases/releases/download/build-20/Dropshot.dmg" length="2908762" type="application/octet-stream" sparkle:edSignature="KE9fRxZ5ssbd/+SGnLHRdlwmaE8sSE4rHcCVGPWc1gcjfpfKGjTd9KZ6TZu/M+eZ3Ssqni7iwhhGr/Zk0nGgAw=="/>
         </item>
     </channel>
 </rss>
