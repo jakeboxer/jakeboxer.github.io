@@ -14,23 +14,21 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 Open <http://127.0.0.1:8000/dropshot/>. Assets use relative paths; Anton and its license are included under `dropshot/assets/`.
 
-## Downloads and update feeds
+## Downloads and update feed
 
-DMGs remain in [jakecard/Dropshot-releases](https://github.com/jakecard/Dropshot-releases), which no longer needs GitHub Pages. This repository owns both feed URLs:
+DMGs remain in [jakecard/Dropshot-releases](https://github.com/jakecard/Dropshot-releases), which no longer needs GitHub Pages. This repository owns the website and update feed:
 
-- `dropshot/appcast.xml`: canonical feed for new app builds.
-- `Dropshot-releases/appcast.xml`: compatibility copy required by already-installed apps. Keep it current for every release.
+- `dropshot/appcast.xml`: the update feed for Dropshot.
 - `Dropshot-releases/index.html`: redirect from the old website address to `/dropshot/`.
 
 For each release:
 
 1. Upload the signed DMG to its immutable GitHub Release tag in `Dropshot-releases`.
 2. Update `dropshot/appcast.xml`, preserving the generated signature and using a tag-specific GitHub Release enclosure URL.
-3. Run `python3 scripts/sync-dropshot-feed.py` to update the compatibility copy.
-4. Commit and push both feed files together. Verify both live URLs return the same XML after Pages deployment.
+3. Commit and push the feed update. Verify <https://jakecard.dev/dropshot/appcast.xml> after Pages deployment.
 
-The app's release tooling must publish here instead of the former distribution repository. Changing a future build's feed URL alone does not update older installed apps; the compatibility copy is still required.
+The app's release tooling publishes the feed here instead of the DMG distribution repository. The old feed and synchronization script were retired after the only installed copy migrated to the new URL.
 
 ## Publishing and future hosting
 
-Push to `main` and check the GitHub Pages deployment. Verify <https://jakecard.dev/dropshot/>, both feed URLs, and the old landing-page redirect. When changing hosting providers, preserve all these paths, including the case-sensitive `/Dropshot-releases/appcast.xml` path.
+Push to `main` and check the GitHub Pages deployment. Verify <https://jakecard.dev/dropshot/>, the update feed, and the old landing-page redirect. Preserve these paths when changing hosting providers.
