@@ -1,0 +1,169 @@
+@font-face{font-family:Anton;src:url('assets/anton.ttf') format('truetype');font-weight:400;font-display:swap}
+:root{--blue:#0064e8;--ink:#071744;--ice:#edf3ff;--acid:#d9ff43;--line:rgba(237,243,255,.35);color-scheme:dark;font-family:Arial,Helvetica,sans-serif;background:var(--blue);color:var(--ice);scroll-behavior:smooth;scrollbar-color:var(--acid) var(--blue)}
+*{box-sizing:border-box}body{margin:0}a{color:inherit;text-decoration:none}button{font:inherit}::selection{background:var(--acid);color:var(--ink)}a:focus-visible,button:focus-visible{outline:3px solid var(--acid);outline-offset:6px}svg{fill:none;stroke:currentColor;stroke-width:2.5}h1,h2,h3,p{margin:0}h1,h2,h3{font-weight:400}a,button{-webkit-tap-highlight-color:transparent}.skip{position:fixed;top:12px;left:12px;padding:15px;background:var(--ink);z-index:10;transform:translateY(-200%)}.skip:focus{transform:none}
+.masthead{height:104px;margin:0 3.7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);position:relative;z-index:2}.wordmark{display:flex;align-items:center;font-size:31px;font-weight:800;letter-spacing:-1.2px;gap:10px}.wordmark svg{width:32px;height:32px}.wordmark-dot{font-size:12px;align-self:flex-start;margin:3px 0 0 -5px}.header-note{font-size:11px;line-height:1.35;letter-spacing:.08em;margin-left:auto;margin-right:10%}.nav-link{font-size:12px;font-weight:700;letter-spacing:.05em}.nav-link span{font-size:24px;padding-left:17px}.nav-link:hover,.text-link:hover{color:var(--acid)}
+.hero{position:relative;overflow:hidden;padding:40px 3.7% 38px;min-height:790px}.hero-heading{position:relative;z-index:1;pointer-events:none;width:max-content}h1{font-family:Anton,sans-serif;font-size:clamp(100px,189.6px,245px);line-height:.94;letter-spacing:-.025em}h1 span{display:block}.outline{color:transparent;-webkit-text-stroke:2px var(--ice)}.hero-bottom{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:end;margin-top:39px;gap:24px}.hero-bottom>p{font-size:clamp(22px,25.2px,32px);line-height:1.2;letter-spacing:-.025em}.hero-bottom em{font-style:normal;color:var(--acid)}.hero-summary{width:325px;font-size:14px;line-height:1.5}.text-link{display:inline-block;font-size:11px;font-weight:bold;letter-spacing:.07em;margin-top:16px;border-bottom:1px solid currentColor;padding-bottom:5px}.text-link span{margin-left:27px}.edge-note{position:absolute;right:15px;top:40%;writing-mode:vertical-rl;font-size:11px;letter-spacing:.13em}
+.format-sticker{position:absolute;right:10%;top:48%;z-index:2;background:var(--acid);color:var(--ink);width:166px;padding:20px 18px;transform:rotate(9deg);box-shadow:0 10px 25px #00117140;font-family:Anton,sans-serif}.format-sticker>span{font-size:47px;line-height:1;display:block}.format-sticker svg{width:100%;height:24px;margin:6px 0}.format-sticker small{font-family:Arial,sans-serif;display:block;margin-top:13px;border-top:1px solid var(--ink);padding-top:8px;font-size:11px;font-weight:bold;letter-spacing:.12em}
+.ticker{overflow:hidden;background:var(--acid);color:var(--ink);border-block:1px solid var(--ink);padding:15px 0}.ticker>div{font-family:Anton,sans-serif;font-size:30px;white-space:nowrap;word-spacing:4px;width:max-content}.ticker span{padding:0 10px;font-family:Arial,sans-serif}
+.how{padding:90px 3.7% 100px;background:var(--ink)}.section-intro{display:flex;justify-content:space-between;gap:40px;margin-bottom:65px}.section-intro h2{font-family:Anton,sans-serif;font-size:clamp(40px,60px,76px);line-height:1.04;letter-spacing:-.01em}.section-intro>p{font-size:16px;line-height:1.5;max-width:340px;padding-top:4px}.steps{list-style:none;padding:0;margin:0}.steps li{display:flex;align-items:start;gap:28px;border-top:1px solid var(--line);padding:29px 0 34px}.step-number{font-size:12px;color:var(--acid);font-variant-numeric:tabular-nums;padding-top:7px;min-width:35px}.steps h3{font-family:Anton,sans-serif;font-size:30px;line-height:1.2;margin-bottom:12px}.steps p{max-width:520px;font-size:14px;line-height:1.6;color:#cbd7f5}.step-format{margin-left:auto;white-space:nowrap;font-family:Anton,sans-serif;font-size:38px;color:var(--acid)}.step-format span{color:#8597c4}kbd{font-family:inherit;font-size:.9em;white-space:nowrap;border:1px solid #7a8db8;border-radius:4px;padding:1px 5px;color:var(--ice)}
+.download{padding:30px 3.7% 50px;background:var(--acid);color:var(--ink)}.download-top{display:flex;justify-content:space-between;font-size:11px;font-weight:bold;letter-spacing:.08em;border-bottom:1px solid #07174460;padding-bottom:22px}.status{display:flex;align-items:center;gap:8px}.status>span{width:7px;height:7px;border-radius:50%;background:var(--ink)}.download h2{font-family:Anton,sans-serif;font-size:clamp(70px,144px,180px);line-height:1;letter-spacing:-.025em;margin:40px 0}.download h2>span{color:var(--blue)}.download-bottom{display:flex;justify-content:space-between;align-items:end;gap:30px}.download-bottom>p{font-size:23px;line-height:1.25;letter-spacing:-.025em}.download-action{width:360px}.download-action button{display:flex;align-items:center;justify-content:space-between;width:100%;padding:20px 19px;background:var(--ink);color:var(--acid);font-size:12px;font-weight:bold;letter-spacing:.035em;border:0;cursor:not-allowed;opacity:1}.download-action svg{width:24px;height:24px;margin-left:15px}.download-action p{font-size:11px;line-height:1.6;margin-top:11px}footer{display:flex;justify-content:space-between;align-items:center;gap:30px;padding:37px 3.7%;background:var(--ink)}.footer-brand{font-size:24px;font-weight:800;letter-spacing:-1px}footer p,footer>span{font-size:11px;line-height:1.5;letter-spacing:.04em}footer p{margin-right:auto;margin-left:9%}
+@keyframes float{from{transform:translateY(-9px) rotate(0)}to{transform:translateY(12px) rotate(12deg)}}@keyframes orbit{from{transform:scaleY(.54) rotate(-8deg)}to{transform:scaleY(.68) rotate(16deg)}}
+
+
+@media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}.orbit-core,.orbit-rings{animation:none}}
+
+/* Homemade flyer revision: intentionally crooked, mismatched, and pasted together. */
+:root{--blue:#001bdb;--acid:#e5ff00;--ink:#080b21;--ice:#fff;--pink:#ff9edd}
+body{background:var(--blue)}
+.masthead{height:87px;margin:12px 2% 0;border:3px dashed white;padding:0 18px;transform:rotate(-.5deg)}
+.wordmark{font-family:Georgia,serif;font-style:italic;font-weight:bold;letter-spacing:-1px;font-size:36px;text-decoration:underline;text-decoration-thickness:2px}.wordmark svg{display:none}
+.header-note{font-family:'Courier New',monospace;font-size:12px;font-weight:bold;color:var(--acid);margin-right:6%;transform:rotate(2deg)}
+.nav-link{background:var(--acid);color:var(--ink);border:3px outset #fff;padding:7px 12px;text-decoration:underline}.nav-link:hover{color:var(--ink);background:var(--pink)}
+.hero{padding:45px 4% 34px;min-height:800px}
+.hero-heading{width:76%;z-index:2}h1{font-size:clamp(100px,180px,220px);line-height:1.05;letter-spacing:-.015em;transform:rotate(-3deg)}
+h1>span:first-child{color:var(--ice);text-shadow:5px 5px 0 #080b21,9px 9px 0 #ff53bb;display:table;transform:scaleX(1.12);transform-origin:left}
+h1 .convert{font-family:Georgia,'Times New Roman',serif;font-weight:900;font-style:italic;font-size:.64em;background:var(--acid);color:var(--ink);line-height:1.08;display:table;padding:0 16px 8px;margin:8px 0 9px 4%;transform:rotate(5deg);box-shadow:8px 8px 0 #080b21}
+h1 .outline{color:var(--pink);-webkit-text-stroke:1px var(--ink);text-shadow:6px 6px 0 var(--ink);font-family:Anton,sans-serif;letter-spacing:.035em;transform:rotate(-1deg);margin-left:3%}
+.icon-flyer{position:absolute;right:6%;top:85px;width:29%;transform:rotate(12deg);z-index:1;animation:flyer-rock 13s ease-in-out infinite alternate}.app-icon{display:block;width:100%;height:auto;filter:drop-shadow(12px 14px 0 #070922)}.icon-caption,.icon-footnote{display:table;position:relative;background:#fff;color:#080b21;font:700 12px/1.25 'Courier New',monospace;padding:6px 9px;z-index:1}.icon-caption{transform:rotate(-6deg);margin-left:-13px;margin-bottom:10px}.icon-footnote{transform:rotate(-4deg);margin-top:18px;max-width:220px}
+.format-sticker{right:4%;top:59%;width:205px;padding:10px 14px;background:var(--pink);transform:rotate(-8deg);box-shadow:7px 7px 0 var(--ink);border:2px solid var(--ink);display:flex;align-items:center;gap:9px}.format-sticker>span{font:700 27px 'Courier New',monospace}.format-sticker svg{width:33px;height:25px}.format-sticker small{display:none}
+.hero-bottom{align-items:start;margin-top:48px;gap:40px}.hero-bottom>p{font-family:Georgia,serif;font-size:29px;background:white;color:var(--ink);padding:12px 18px;transform:rotate(1.5deg);box-shadow:6px 6px 0 var(--ink);max-width:430px}.hero-bottom em{color:#001bdb;font-weight:bold;text-decoration:underline}.hero-summary{background:#080b21;padding:16px 19px;width:355px;transform:rotate(-2deg);margin-top:18px;font-family:'Courier New',monospace;font-weight:bold}.edge-note{right:8px;top:25%;font-family:'Courier New',monospace}.text-link{font-family:Arial,sans-serif}
+.ticker{border-block:5px double var(--ink);padding:10px 0;transform:rotate(-1deg);position:relative;z-index:2}.ticker>div{font-family:'Courier New',monospace;font-weight:bold;font-size:27px;word-spacing:-3px}
+.how{padding:65px 5% 60px;background:var(--blue)}.section-intro{align-items:start;gap:55px;margin-bottom:35px}.section-intro h2{color:var(--acid);font-family:Georgia,serif;font-weight:bold;font-style:italic;font-size:clamp(38px,56.4px,70px);text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:7px;transform:rotate(-3deg);max-width:60%}.section-intro>p{background:var(--pink);color:var(--ink);padding:20px;font-family:'Courier New',monospace;font-weight:bold;font-size:14px;transform:rotate(3deg);box-shadow:7px 7px 0 var(--ink)}
+.steps{max-width:1050px;margin:0 auto}.steps li{background:#fff;color:var(--ink);border:2px solid var(--ink);padding:22px;gap:22px;margin:15px 0;box-shadow:5px 5px 0 var(--ink);transform:rotate(-.7deg)}.steps li:nth-child(2){transform:rotate(1.2deg);margin-left:4%;background:var(--acid)}.steps li:nth-child(3){transform:rotate(-1deg);margin-right:2%}.step-number{color:var(--ink);font-size:21px;font-family:'Courier New',monospace;font-weight:bold;text-decoration:underline}.steps h3{font-family:Arial,sans-serif;font-weight:900;font-size:27px;letter-spacing:-.035em}.steps p{color:var(--ink);font-size:15px}.step-format{color:var(--blue);transform:rotate(7deg);font-family:Georgia,serif;font-style:italic;font-weight:bold;font-size:32px}.step-format span{color:var(--ink)}kbd{color:var(--ink);border-color:var(--ink);background:white}
+.download{margin:10px 3% 30px;padding:23px 3% 35px;background:var(--acid);border:5px dashed var(--ink);transform:rotate(.6deg)}.download-top{font-family:'Courier New',monospace;font-weight:bold;border-bottom:2px solid var(--ink)}.download h2{font-size:clamp(75px,132px,165px);text-shadow:4px 4px 0 white;transform:rotate(-2deg);line-height:1.04;margin:27px 0}.download h2>span{font-family:Georgia,serif;font-style:italic;font-weight:bold;letter-spacing:-.04em}.download-bottom>p{font-family:'Courier New',monospace;font-size:20px;font-weight:bold}.download-action button{background:#c6c6c6;color:#292929;border:5px outset #eee;font-size:13px;font-weight:bold;text-align:left;transform:rotate(-2deg);padding:16px}.download-action p{font-size:12px}footer{padding:25px 4%;border-top:2px dashed white;background:var(--blue)}.footer-brand{font-family:Georgia,serif;font-style:italic;text-decoration:underline}
+@keyframes flyer-rock{from{transform:rotate(8deg) translateY(-4px)}to{transform:rotate(15deg) translateY(10px)}}
+
+
+@media(prefers-reduced-motion:reduce){.icon-flyer{animation:none}}
+
+.ticker s{text-decoration-thickness:3px;text-decoration-color:currentColor}
+
+.nav-link{cursor:pointer;text-decoration:none;transition:background-color 150ms ease-out}
+.nav-link .download-icon{transition:transform 150ms ease-out}
+.icon-flyer{padding:0;border:0;background:transparent;cursor:pointer;filter:drop-shadow(12px 14px 0 #070922)}
+.icon-flyer .app-icon{filter:none;transition:opacity 150ms ease-out}
+.icon-flyer::before{content:"";position:absolute;inset:0;background:var(--pink);mask:url('assets/app-icon.webp') center/contain no-repeat;opacity:0;transition:opacity 150ms ease-out;pointer-events:none}
+.icon-download{position:absolute;inset:25%;width:50%;height:50%;color:var(--ink);stroke-linecap:round;stroke-linejoin:round;opacity:0;transition:opacity 150ms ease-out,transform 150ms ease-out;pointer-events:none}
+@media (hover:hover){
+  .nav-link:hover{background:var(--pink)}
+  .nav-link:hover .download-icon{transform:translateY(3px)}
+  .icon-flyer:hover .app-icon{opacity:0}
+  .icon-flyer:hover::before,.icon-flyer:hover .icon-download{opacity:1}
+  .icon-flyer:hover .icon-download{transform:translateY(3px)}
+}
+@media(prefers-reduced-motion:reduce){
+  .nav-link,.nav-link .download-icon,.icon-flyer .app-icon,.icon-flyer::before,.icon-download{transition:none}
+  .nav-link:hover .download-icon,.icon-flyer:hover .icon-download{transform:none}
+}
+
+/* Leave more room in the hero for the forthcoming screen recording. */
+.hero-heading h1{font-size:clamp(70px,108px,130px)}
+.hero-bottom{justify-content:flex-end}
+
+
+.demo-slot{position:relative;z-index:2;width:min(640px,65%);margin:35px 0 5px 0;transform:rotate(-1deg)}
+.demo-label{display:table;background:var(--acid);color:var(--ink);padding:7px 12px;font:700 14px 'Courier New',monospace;transform:rotate(2deg);position:relative;z-index:1;margin-bottom:-3px}
+.demo-screen{aspect-ratio:auto;background:var(--ink);border:3px solid white;box-shadow:7px 7px 0 var(--ink);display:block;text-align:center}
+.demo-screen p{font:14px/1.7 'Courier New',monospace;color:white}.demo-screen strong{font-size:inherit;color:inherit;font-weight:inherit}
+
+
+
+.hero{min-height:0}
+
+/* One-line headline with the original mismatched flyer lettering. */
+.hero-heading{width:65%}
+.hero-heading h1{display:flex;align-items:baseline;gap:.3em;white-space:nowrap;font-size:clamp(60px,96px,115px);line-height:1.15}
+.hero-heading h1>span{display:inline-block;margin:0;flex:none}
+.hero-heading h1>span:first-child{transform:none}
+.hero-heading h1 .convert{padding:0 .13em .05em;font-size:.85em}
+.hero-heading h1 .outline{font-size:1em;letter-spacing:0}
+.demo-caption{font:700 20px/1.4 'Courier New',monospace;color:white;margin:24px 3px 0;max-width:100%}.demo-caption strong{color:var(--acid)}
+.hero{min-height:660px}
+.format-sticker{top:auto;bottom:112px}
+.png-sticker{bottom:43px;right:5%;background:var(--acid);transform:rotate(6deg)}
+
+
+.hero-heading{padding-left:0;margin-left:-34px}
+
+
+.demo-caption .heic-label{color:var(--pink)}
+
+.demo-screen{position:relative}
+.recording-label{position:absolute;top:0;right:-8px;transform:translateY(-95%) rotate(11deg);background:white;color:var(--ink);padding:6px 9px;font:700 12px/1.25 'Courier New',monospace;z-index:3}
+
+
+/* Separate the pasted-on labels while keeping their crooked alignment. */
+.recording-label{right:-28px;transform:translateY(3px) rotate(11deg)}
+.format-sticker:not(.png-sticker){bottom:98px;transform:rotate(-8deg);z-index:3}
+.png-sticker{bottom:35px;right:6%}
+
+
+/* Pin the conversion stickers to opposite corners of the app icon. */
+.icon-flyer .format-sticker:not(.png-sticker){background:var(--acid);top:-18px;right:-15px;bottom:auto;left:auto;transform:rotate(-12deg)}
+.icon-flyer .png-sticker{background:var(--pink);top:auto;right:auto;bottom:-18px;left:-20px;transform:rotate(-6deg)}
+
+
+/* Conversion stickers sit separately below the icon. */
+.format-sticker:not(.png-sticker){background:var(--acid);top:auto;bottom:135px;right:4%;left:auto;transform:rotate(-8deg)}
+.png-sticker{background:var(--pink);top:auto;bottom:35px;right:6%;left:auto;transform:rotate(6deg)}
+
+
+.format-sticker:not(.png-sticker){right:auto;left:calc(4% + min(640px,59.8%) + 24px)}
+
+
+.png-sticker{bottom:65px}
+
+
+/* Center the page content; the format ticker remains full-bleed. */
+:root{--content-width:1024px;--content-gutter:clamp(20px,48px,40px)}
+.masthead{width:calc(100% - 40px);max-width:var(--content-width);margin:12px auto 0}
+.hero{width:100%;max-width:var(--content-width);margin-inline:auto;padding-inline:var(--content-gutter)}
+footer{width:100%;max-width:var(--content-width);margin-inline:auto;padding-inline:var(--content-gutter)}
+.format-sticker:not(.png-sticker){left:calc(var(--content-gutter) + min(640px,calc((100% - 2 * var(--content-gutter)) * .65)) + 24px)}
+
+
+/* Fixed desktop canvas: resizing changes outer margins, never content scale. */
+:root{--content-gutter:40px}
+body{min-width:1064px}
+.masthead,.hero,footer{width:var(--content-width);max-width:none}
+.hero-heading h1{font-size:96px}
+.icon-flyer{width:348px}
+.demo-slot{width:520px}
+
+.format-sticker:not(.png-sticker){left:calc(var(--content-gutter) + 520px + 24px)}
+
+.format-sticker:not(.png-sticker){bottom:113px}
+
+.nav-link{display:inline-flex;align-items:center;gap:10px}.download-icon{width:20px;height:20px;flex:none;stroke-linecap:round;stroke-linejoin:round}
+
+.demo-screen video{display:block;width:100%;height:auto}
+.mobile-platform-note{display:none}
+
+/* Touch-first devices get a separate layout; desktop window width never
+   changes the fixed canvas above. Keep this layout in landscape as well. */
+@media (hover:none) and (pointer:coarse){
+  :root{overflow-x:hidden}
+  body{min-width:0;overflow-x:clip}
+  .masthead,.hero,footer{width:calc(100% - 32px);max-width:600px}
+  .masthead{height:auto;min-height:112px;padding:14px 12px;display:grid;grid-template-columns:1fr auto;gap:14px 8px}
+  .wordmark{font-size:28px;min-height:44px}
+  .nav-link{display:none}
+  .mobile-platform-note{display:block;grid-column:2;grid-row:1;color:var(--acid);font-size:12px;font-weight:700}
+  .header-note{grid-column:1 / -1;margin:0;font-size:11px;line-height:1.4}
+  .hero{display:grid;grid-template-areas:"heading" "demo" "icon" "jpeg" "png" "note";grid-template-columns:minmax(0,1fr);padding:32px 8px 38px;overflow:visible;min-height:0}
+  .hero-heading{grid-area:heading;width:auto;margin:0}
+  .hero-heading h1{font-size:clamp(44px,15.5vw,76px);gap:.24em}
+  .demo-slot{grid-area:demo;width:100%;margin:36px 0 0}
+  .recording-label{right:-4px;font-size:11px;transform:translateY(-50%) rotate(6deg)}
+  .demo-caption{font-size:17px;line-height:1.5;margin:24px 2px 0}
+  .icon-flyer{grid-area:icon;position:relative;inset:auto;width:72%;max-width:280px;justify-self:center;margin:42px 0 34px}
+  .format-sticker:not(.png-sticker),.png-sticker{position:relative;inset:auto;width:205px;margin:0}
+  .format-sticker:not(.png-sticker){grid-area:jpeg;justify-self:start;margin-left:8px}
+  .png-sticker{grid-area:png;justify-self:end;margin:16px 8px 0 0}
+  .edge-note{grid-area:note;position:static;writing-mode:horizontal-tb;font-size:11px;line-height:1.5;letter-spacing:.06em;text-align:center;margin-top:32px}
+  footer{display:flex;flex-wrap:wrap;gap:18px 24px;padding:28px 8px max(28px,env(safe-area-inset-bottom))}
+  .footer-brand{display:inline-flex;align-items:center;min-height:44px}
+  footer p{margin:0;line-height:1.7}
+  footer p a{display:inline-block;padding-block:10px;margin-block:-10px}
+  footer>span{width:100%}
+}

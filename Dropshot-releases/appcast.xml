@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Dropshot</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 02 Oct 2026 01:17:32 -0700</pubDate>
+            <link>https://jakecard.dev/dropshot/</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/jakecard/Dropshot-releases/releases/download/build-18/Dropshot.dmg" length="2909013" type="application/octet-stream" sparkle:edSignature="YhA0C2ShBE/cSg7S9BzzQL+fWsztNo1cnECRJETbzv4wQrhygYAtgZNYAK191+lrPD9/MWiLfJ+WFNfP6kPtAA=="/>
+        </item>
+    </channel>
+</rss>

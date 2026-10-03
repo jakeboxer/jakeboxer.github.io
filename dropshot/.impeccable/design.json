@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-30T01:51:39.769476+00:00",
+  "title": "Dropshot \u2014 Homemade Rave Flyer",
+  "extensions": {
+    "colorMeta": {
+      "blue": {
+        "displayName": "Electric Blue",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.23 259)",
+          "oklch(26% 0.23 259)",
+          "oklch(38% 0.23 259)",
+          "oklch(49% 0.23 259)",
+          "oklch(61% 0.23 259)",
+          "oklch(72% 0.23 259)",
+          "oklch(84% 0.23 259)",
+          "oklch(95% 0.23 259)"
+        ]
+      },
+      "ink": {
+        "displayName": "Midnight Ink",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.08 267)",
+          "oklch(26% 0.08 267)",
+          "oklch(38% 0.08 267)",
+          "oklch(49% 0.08 267)",
+          "oklch(61% 0.08 267)",
+          "oklch(72% 0.08 267)",
+          "oklch(84% 0.08 267)",
+          "oklch(95% 0.08 267)"
+        ]
+      },
+      "ice": {
+        "displayName": "Ice",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.018 264)",
+          "oklch(26% 0.018 264)",
+          "oklch(38% 0.018 264)",
+          "oklch(49% 0.018 264)",
+          "oklch(61% 0.018 264)",
+          "oklch(72% 0.018 264)",
+          "oklch(84% 0.018 264)",
+          "oklch(95% 0.018 264)"
+        ]
+      },
+      "acid": {
+        "displayName": "Acid Lime",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.2 119)",
+          "oklch(26% 0.2 119)",
+          "oklch(38% 0.2 119)",
+          "oklch(49% 0.2 119)",
+          "oklch(61% 0.2 119)",
+          "oklch(72% 0.2 119)",
+          "oklch(84% 0.2 119)",
+          "oklch(95% 0.2 119)"
+        ]
+      },
+      "line": {
+        "displayName": "Ice Divider",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.018 264)",
+          "oklch(26% 0.018 264)",
+          "oklch(38% 0.018 264)",
+          "oklch(49% 0.018 264)",
+          "oklch(61% 0.018 264)",
+          "oklch(72% 0.018 264)",
+          "oklch(84% 0.018 264)",
+          "oklch(95% 0.018 264)"
+        ]
+      }
+    },
+    "shadows": [
+      {
+        "name": "paper-offset",
+        "value": "5px 5px 0 #080b21",
+        "purpose": "Deliberate cut-and-paste graphic shadow"
+      }
+    ],
+    "motion": [
+      {
+        "name": "icon-rock",
+        "value": "flyer-rock 13s ease-in-out infinite alternate",
+        "purpose": "Continuous slow rocking of supplied app icon, disabled for reduced motion. No pause button by user request."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "700px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1500px"
+      }
+    ],
+    "palette": {
+      "blue": "#001bdb",
+      "ink": "#080b21",
+      "ice": "#ffffff",
+      "acid": "#e5ff00",
+      "pink": "#ff9edd"
+    }
+  },
+  "components": [],
+  "narrative": {
+    "northStar": "Homemade rave flyer",
+    "overview": "User-requested jank: mismatched type, crooked paper strips, bevels, hard shadows, raw app icon.",
+    "dos": [
+      "Keep deliberate irregularity",
+      "Keep instructions readable",
+      "Respect reduced motion"
+    ],
+    "donts": [
+      "Do not imply a published download",
+      "Do not polish away the jank"
+    ]
+  }
+}

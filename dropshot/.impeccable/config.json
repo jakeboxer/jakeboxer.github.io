@@ -1,0 +1,81 @@
+{
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "georgia",
+        "createdAt": "2026-10-01T02:01:15.126Z",
+        "reason": "DESIGN.md explicitly preserves mismatched Georgia italic, Courier and Arial in the existing flyer; this task preserves that design."
+      },
+      {
+        "rule": "design-system-font",
+        "value": "courier new",
+        "createdAt": "2026-10-01T02:01:15.159Z",
+        "reason": "DESIGN.md explicitly preserves mismatched Georgia italic, Courier and Arial in the existing flyer; this task preserves that design."
+      },
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "createdAt": "2026-10-01T02:02:08.860Z",
+        "reason": "DESIGN.md explicitly preserves mismatched Anton, Georgia italic, Courier and Arial; the user requested preserving the existing desktop design."
+      },
+      {
+        "rule": "tiny-text",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-01T02:49:19.069Z",
+        "reason": "Existing small text is decorative flyer labeling and footer metadata; the new platform label is 12px and the mobile body caption is 17px. Preserve the requested desktop design."
+      },
+      {
+        "rule": "clipped-overflow-container",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-01T02:49:19.100Z",
+        "reason": "The clipped positioned elements are decorative flyer content, not menus or popovers. Mobile header and page verified visually without clipped content."
+      },
+      {
+        "rule": "design-system-font",
+        "value": "new",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-01T02:49:19.128Z",
+        "reason": "Parser fragment of Courier New, which DESIGN.md explicitly preserves in the existing flyer."
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-01T02:49:19.159Z",
+        "reason": "Existing app-icon drop shadow is an offset dark flyer shadow, not a chromatic glow. Preserve the user-requested desktop appearance."
+      },
+      {
+        "rule": "wide-tracking",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-01T02:49:39.688Z",
+        "reason": "Tracking above .05em is confined to short uppercase flyer labels; body caption tracking is normal. Preserve the established flyer design."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-01T02:49:39.718Z",
+        "reason": "Tight padding belongs to the intentionally pasted headline strip and compact recording label in the documented homemade flyer design; the new macOS-only label has no border or colored container."
+      }
+    ]
+  }
+}
