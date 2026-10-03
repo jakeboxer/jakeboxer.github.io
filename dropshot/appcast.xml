@@ -4,17 +4,17 @@
         <title>Dropshot</title>
         <item>
             <title>1.1.0</title>
-            <pubDate>Sat, 03 Oct 2026 12:15:17 -0700</pubDate>
+            <pubDate>Sat, 03 Oct 2026 12:38:30 -0700</pubDate>
             <link>https://jakecard.dev/dropshot</link>
             <description><![CDATA[
                 <h2>Paste into Finder</h2>
                 <p>Paste converted images into Finder to save them as JPEG or PNG files.</p>
             ]]></description>
-            <sparkle:version>21</sparkle:version>
+            <sparkle:version>22</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/jakecard/Dropshot-releases/releases/download/build-21/Dropshot.dmg" length="2910950" type="application/octet-stream" sparkle:edSignature="dV05ye1myMgZsNbaibfk6oRmjjKQBb47DwL6MXNEIzT1xI/cXhuDkRuolov4rq/NN0VHVhmNlJzS1LIdmFMFDg=="/>
+            <enclosure url="https://github.com/jakecard/Dropshot-releases/releases/download/build-22/Dropshot.dmg" length="2911630" type="application/octet-stream" sparkle:edSignature="RHZ9lTO8zg+DqtrAJYcuONZQ2/kIPVH1jzFBrl2HxASuXAlPr/RlPJIn9ep9g2riLeGhE9YFVYIi6V4YCHnsBQ=="/>
         </item>
     </channel>
 </rss>
